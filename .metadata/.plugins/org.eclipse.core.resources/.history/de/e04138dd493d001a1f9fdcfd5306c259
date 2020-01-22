@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+
+public class ScannerCalculator {
+
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner calculator = new Scanner(System.in);
+		
+		System.out.println("enter num1: ");
+		int num1 = calculator.nextInt();
+		
+		System.out.println("enter num2: ");
+		int num2 = calculator.nextInt();
+		calculator.nextLine();
+		System.out.println("enter operator: ");
+		String add = calculator.nextLine();
+		
+		int result = num1 + num2;
+		
+		if(add.equals("+")){
+			result = num1 + num2;
+			
+		}else{
+			
+		}
+		
+		
+		System.out.println("your result is: "+num1 + "+" + num2 + "=" + result);
+		
+		
+
+	}
+
+}
