@@ -1,0 +1,70 @@
+
+public class Calculator {
+
+	
+	public static void main(String[] args) {
+		
+		double num1 = 8;
+		double num2 = 3;
+		char operatorMath = '%';
+		double result;
+		
+		
+		if(operatorMath == '+'){
+			result = num1+num2;
+			System.out.println(result);
+			
+		}else if(operatorMath == '-'){
+			result = num1-num2;
+			System.out.println(result);
+			
+		}else if(operatorMath == '*'){	
+			result = num1*num2;
+			System.out.println(result);
+			
+		}else if(operatorMath == '/'){
+			result = num1/num2;
+			System.out.println(result);
+			
+		}else if(operatorMath == '%'){
+			result = num1%num2;
+			System.out.println(result);
+			
+		}else{
+			System.out.println("no operator");
+		}
+		
+System.out.println("---------------------------------------------");
+		
+		double num3 = 8;
+		double num4 = 3;
+		char operatorMath2 = '%';
+		double result2;
+		
+		switch(operatorMath2) {
+		case '+':
+			result = num3+num4;
+			System.out.println(result2);
+			break;
+		case '-':
+			result = num3-num4;
+			System.out.println(result2);
+			break;
+		case '*':
+			result = num3*num4;
+			System.out.println(result2);
+			break;
+		case '/':
+			result = num3/num4;
+			System.out.println(result2);
+			break;
+		case '%':
+			result = num3%num4;
+			System.out.println(result2);
+			break;
+		default: 
+			System.out.println("no opearator");
+	}
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class ArraysPrimitiveDataType {
+
+	
+	public static void main(String[] args) {
+		
+		int[] arrays;
+		// int arrays2[]; tas pats
+		arrays = new int[2];
+		System.out.println(arrays);
+	}
+
+}

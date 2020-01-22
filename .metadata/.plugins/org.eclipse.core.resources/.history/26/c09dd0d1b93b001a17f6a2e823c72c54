@@ -1,0 +1,30 @@
+
+public class ForLoopAndIfElseBlock {
+
+	public static void main(String[] args) {
+		int[] dates = {2, 3,5, 6};
+		int checkDate = 5;
+		
+		for(int i = 0; i < dates.length; i++) {
+			if(dates[2] == checkDate) {
+				System.out.println("two");
+				break;
+			} else if (dates[3] == 3){
+				System.out.println("three");
+				break;
+			} else if (dates[5] == 5){
+				System.out.println("five");
+				break;
+			}else if (dates[6] == 6){
+				System.out.println("six");
+				break;
+			}else{
+				System.out.println("not found");
+			}
+				
+			
+		}
+
+	}
+
+}
