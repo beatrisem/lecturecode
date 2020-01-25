@@ -1,0 +1,9 @@
+package learnJavaClass;
+
+public class Box {
+	double width;
+	double height = 20.8;
+	double depth;
+	
+	
+}

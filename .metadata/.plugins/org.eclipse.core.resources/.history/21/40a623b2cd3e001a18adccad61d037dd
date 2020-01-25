@@ -1,0 +1,18 @@
+package lv.beatrise;
+
+public class LearnMethodsWithType {
+
+	
+	
+	public static void main(String[] args) {
+		
+		getArea();
+		
+	}
+	
+	public static double getArea(){
+		return 10.0 * 20.3;
+		
+	}
+
+}

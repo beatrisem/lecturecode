@@ -1,0 +1,15 @@
+package learnJavaClass;
+
+public class TestJavaProgram {
+
+	
+	
+	public static void main(String[] args) {
+		Box boxObject = new Box();
+		
+		boxObject.height;
+		
+		
+	}
+
+}
