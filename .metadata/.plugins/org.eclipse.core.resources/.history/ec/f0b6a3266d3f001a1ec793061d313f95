@@ -1,0 +1,26 @@
+package lv.beatrise.learnstring;
+
+public class TestStringClass {
+
+	
+	public static void main(String[] args) {
+		String str = " hoLa  ";
+		String strClass = new String("param");
+		
+		
+		System.out.println(str);
+		System.out.println(strClass+"--");
+		
+		int stringLength = str.length();
+		System.out.println(stringLength);
+		
+		System.out.println(str.charAt(2));
+		
+		System.out.println(str.toLowerCase());
+		System.out.println(str.toUpperCase());
+		System.out.println(str.trim());//no abam ousem nonem space
+		System.out.println(str.replace(" ", "."));
+		
+	}
+
+}

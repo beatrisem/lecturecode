@@ -1,0 +1,21 @@
+package lv.beatrise.learnstring;
+
+public class TestStringClass {
+
+	
+	public static void main(String[] args) {
+		String str = "hola";
+		String strClass = new String();
+		
+		
+		System.out.println(str);
+		System.out.println(strClass);
+		
+		
+		
+		
+		
+		
+	}
+
+}

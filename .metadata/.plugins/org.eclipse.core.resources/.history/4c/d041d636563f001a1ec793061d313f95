@@ -1,0 +1,15 @@
+package lv.beatrise;
+
+import lv.beatrise.geometricfigures.Circle;
+
+public class TestFigure {
+
+	public static void main(String[] args) {
+		
+		Circle figure = new Circle();
+
+		System.out.println(figure.getColor() + " " + figure.getRadius());
+
+	}
+
+}

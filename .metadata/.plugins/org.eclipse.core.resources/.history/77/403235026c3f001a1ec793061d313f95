@@ -1,0 +1,23 @@
+package lv.beatrise.learnstring;
+
+public class TestStringClass {
+
+	
+	public static void main(String[] args) {
+		String str = "hola";
+		String strClass = new String("param");
+		
+		
+		System.out.println(str);
+		System.out.println(strClass+"--");
+		
+		int stringLength = str.length();
+		System.out.println(stringLength);
+		
+		
+		
+		
+		
+	}
+
+}
