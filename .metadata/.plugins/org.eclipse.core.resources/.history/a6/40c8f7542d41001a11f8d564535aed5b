@@ -1,0 +1,44 @@
+package lv.beatrise;
+
+public class TestBookstore {
+
+	
+	public static void main(String[] args) {
+		
+		
+		char m = 'm';
+		char f = 'f';
+		char o = 'j';
+		
+		if(m==o || f==o){
+			System.out.println("it is!");
+		}else{
+			System.out.println("not correct!");
+		}
+		
+		
+		switch(o){
+		case 'm':  System.out.println("M");
+			break;
+		case 'f': System.out.println("F");
+			break;
+		default:
+			System.out.println("other");	
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
