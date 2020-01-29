@@ -1,0 +1,23 @@
+package lv.beatrise;
+
+import lv.beatrise.graph.Point2D;
+import lv.beatrise.graph.Point3D;
+
+public class TestInheritance {
+
+	
+	public static void main(String[] args) {
+		
+		
+			Point2D point = new Point2D();
+			System.out.println(point.toString());
+			
+			Point2D point1 = new Point2D();
+			System.out.println(point1.toString(2,3));
+			
+			
+			//Point3D point3D = new Point3D(4);
+			System.out.println();
+	}
+
+}

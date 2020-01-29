@@ -1,0 +1,17 @@
+package lv.beatrise;
+
+public class TestPerson {
+
+	
+	
+	public static void main(String[] args) {
+		
+		String[] strArr = new String[12];
+		strArr[0] = "sport";
+		
+		System.out.println(strArr(0));
+		
+
+	}
+
+}

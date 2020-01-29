@@ -1,0 +1,13 @@
+package lv.beatrise;
+
+import lv.beatrise.graph.Point2D;
+
+public class TestInheritance {
+
+	
+	public static void main(String[] args) {
+		
+			System.out.println(Point2D.toString(2, 6));
+	}
+
+}

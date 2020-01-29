@@ -1,0 +1,5 @@
+package lv.beatrise.users;
+
+public class Student {
+
+}

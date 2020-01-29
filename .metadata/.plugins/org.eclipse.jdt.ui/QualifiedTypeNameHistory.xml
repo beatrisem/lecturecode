@@ -4,4 +4,7 @@
 <fullyQualifiedTypeName name="lv.beatrise.layer.FootballPlayer"/>
 <fullyQualifiedTypeName name="lv.beatrise.geometricfigures.Circle"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="lv.beatrise.bookstore.Author"/>
+<fullyQualifiedTypeName name="lv.beatrise.bookstore.Book"/>
+<fullyQualifiedTypeName name="lv.beatrise.figure.Rectangle"/>
 </qualifiedTypeNameHistroy>
