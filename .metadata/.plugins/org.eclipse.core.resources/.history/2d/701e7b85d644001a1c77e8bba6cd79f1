@@ -1,0 +1,5 @@
+package lv.beatrise.inheritance;
+
+public class Golf extends Car{
+
+}

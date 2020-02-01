@@ -1,0 +1,19 @@
+package lv.beatrise;
+
+import lv.beatrise.inheritance.Golf;
+
+public class TestInheitance {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Golf golf = new Golf();
+		
+		golf.carRun();
+
+	}
+
+}
