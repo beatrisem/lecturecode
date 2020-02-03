@@ -11,4 +11,12 @@
 <fullyQualifiedTypeName name="lv.beatrise.graph.Point4D"/>
 <fullyQualifiedTypeName name="lv.beatrise.users.Teacher"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="lv.beatriseencapstulation.Student"/>
+<fullyQualifiedTypeName name="lv.beatrise.inheritance.Golf"/>
+<fullyQualifiedTypeName name="lv.beatrise.polymorphism.Animal"/>
+<fullyQualifiedTypeName name="lv.beatrise.polymorphism.Cat"/>
+<fullyQualifiedTypeName name="lv.beatrise.polymorphism.Dog"/>
+<fullyQualifiedTypeName name="lv.beatrise.testinterface.Rectangle"/>
+<fullyQualifiedTypeName name="lv.beatrise.testinterface.Shape"/>
+<fullyQualifiedTypeName name="lv.beatrise.testinterface.Triangle"/>
 </qualifiedTypeNameHistroy>

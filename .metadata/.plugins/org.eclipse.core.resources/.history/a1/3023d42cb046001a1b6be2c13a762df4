@@ -1,0 +1,22 @@
+package lv.beatrise;
+
+import java.util.ArrayList;
+
+public class TestCarArrList {
+
+	
+	public static void main(String[] args) {
+		ArrayList<String> cars = new ArrayList<>();
+		cars.add("BMW");
+		cars.add("Tesla");
+		cars.add("Jaguar");
+		
+		for (String car : cars){
+			System.out.println(cars);
+			
+		}
+		
+		
+	}
+
+}
