@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="lv.beatrise.layer.FootballPlayer"/>
 <fullyQualifiedTypeName name="lv.beatrise.geometricfigures.Circle"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="lv.beatrise.bookstore.Author"/>
 <fullyQualifiedTypeName name="lv.beatrise.bookstore.Book"/>
 <fullyQualifiedTypeName name="lv.beatrise.figure.Rectangle"/>
@@ -10,7 +9,6 @@
 <fullyQualifiedTypeName name="lv.beatrise.graph.Point3D"/>
 <fullyQualifiedTypeName name="lv.beatrise.graph.Point4D"/>
 <fullyQualifiedTypeName name="lv.beatrise.users.Teacher"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="lv.beatriseencapstulation.Student"/>
 <fullyQualifiedTypeName name="lv.beatrise.inheritance.Golf"/>
 <fullyQualifiedTypeName name="lv.beatrise.polymorphism.Animal"/>
@@ -19,4 +17,8 @@
 <fullyQualifiedTypeName name="lv.beatrise.testinterface.Rectangle"/>
 <fullyQualifiedTypeName name="lv.beatrise.testinterface.Shape"/>
 <fullyQualifiedTypeName name="lv.beatrise.testinterface.Triangle"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

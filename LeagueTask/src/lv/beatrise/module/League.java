@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class League {
 	
 	private String name;
-	private ArrayList<String> nameOfTeam;
+	private ArrayList<Team> nameOfTeam;
 	
 	public League(String leagueName){
 		this.name = leagueName;
@@ -20,17 +20,26 @@ public class League {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public ArrayList<String> getNameOfTeam() {
+	public ArrayList<Team> getNameOfTeam() {
 		return nameOfTeam;
 	}
-	public void setNameOfTeam(ArrayList<String> nameOfTeam) {
+	public void setNameOfTeam(ArrayList<Team> nameOfTeam) {
 		this.nameOfTeam = nameOfTeam;
 	}
+	
+	public void recordWinAndLoss(Team winner, Team loser){
+		winner.setWins(1);
+		loser.setWins(1);
+		
+	}
+	
+	
 	@Override
 	public String toString() {
 		return "League [name=" + name + ", nameOfTeam="
 				+ nameOfTeam + "]";
 	}
+	
 	
 	
 	
