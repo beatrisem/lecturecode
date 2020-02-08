@@ -1,0 +1,25 @@
+package lv.beatrise.inputoutput;
+
+import java.io.*;
+
+public class TestExample {
+
+	/**
+	 * @param args
+	
+	 */
+	public static void main(String[] args) throws Exception {
+		String defaultStr = "Hello user userName";
+		File file = new File("userDefault.txt.txt");
+		
+		
+		
+		String lastString = defaultStr.replace("userName","");
+		
+		
+
+		
+		System.out.println(lastString+"Beatrise");
+	}
+
+}

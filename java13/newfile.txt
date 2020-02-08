@@ -1,0 +1,2 @@
+lorem ipsum check
+ str next ln

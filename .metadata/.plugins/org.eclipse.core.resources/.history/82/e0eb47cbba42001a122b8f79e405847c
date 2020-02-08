@@ -1,6 +1,0 @@
-package lv.beatrise.graph;
-
-public class Point3D {
-
-	private int z;
-}
