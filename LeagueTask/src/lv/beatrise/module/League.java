@@ -13,7 +13,6 @@ public class League {
 	}
 	
 	
-	
 	public String getName() {
 		return name;
 	}
@@ -27,10 +26,22 @@ public class League {
 		this.nameOfTeam = nameOfTeam;
 	}
 	
-	public void recordWinAndLoss(Team winner, Team loser){
-		winner.setWins(1);
-		loser.setWins(1);
+	public void recordWinAndLoss(String winnerName, String loserName){
+		Team winner;
+		Team loser;
 		
+		winner = this.teamWithName(winnerName);
+		loser = this.teamWithName(loserName);
+		
+		if((winner != null) && (loser != null)){
+		winner.wins++;
+		loser.loses++;
+		}
+	}
+	
+	public void recordTies(Team tie1, Team tie2){
+		tie1.ties++;
+		tie2.ties++;
 	}
 	
 	
@@ -40,6 +51,18 @@ public class League {
 				+ nameOfTeam + "]";
 	}
 	
+	public Team teamWithName(String teamToLookFor){
+		Team teamCreated = null;
+		for(Team t : this.nameOfTeam){
+			if(t.name.equals(teamToLookFor)){
+				teamCreated = t;
+			}
+			
+		}
+		
+		
+		return teamCreated;
+	}
 	
 	
 	

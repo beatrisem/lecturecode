@@ -1,22 +1,17 @@
 package lv.beatrise.module;
 
 public class Team {
-	private String name;
-	private int wins;
-	private int loses;
-	private int ties;
+	public String name;
+	public int wins;
+	public int loses;
+	public int ties;
 	
 	public Team(String nameOfTeam){
 		this.name = nameOfTeam;
 		this.wins = 0;
 		this.loses = 0;
-		this.ties = 0;
-		
+		this.ties = 0;	
 	}
-	
-	
-	
-	
 	
 	public String getNameL() {
 		return name;
@@ -44,7 +39,7 @@ public class Team {
 	}
 	@Override
 	public String toString() {
-		return "Team [name=" + name + ", wins=" + wins + ", loses="
+		return "\nTeam [name=" + name + ", wins=" + wins + ", loses="
 				+ loses + ", ties=" + ties + "]";
 	}
 	
@@ -52,5 +47,8 @@ public class Team {
 		return this.wins +this.loses +this.ties;
 	}
 	
-	
+	public int totalPoints() {
+		
+		return (this.wins * 2 + this.ties);
+	}
 }

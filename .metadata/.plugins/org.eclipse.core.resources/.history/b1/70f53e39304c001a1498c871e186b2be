@@ -1,0 +1,42 @@
+ package lv.beatrise.test;
+
+import java.util.ArrayList;
+
+import lv.beatrise.module.League;
+import lv.beatrise.module.Team;
+
+public class TestLeague {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ArrayList<Team> arrTeam = new ArrayList<>();
+		
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		Team dinamo = new Team("Dinamo");
+		
+		
+		
+		arrTeam.add(ska);
+		arrTeam.add(cska);
+		arrTeam.add(dinamo);
+		League khl = new League("KHL");
+		//khl.nameOfTeam.add(cska);
+		
+		
+		khl.recordWinAndLoss(ska, cska);
+		khl.recordWinAndLoss(ska, dinamo);
+		khl.recordTies(dinamo, cska);
+		
+		
+		System.out.println("total points: "+ska.totalPoints());
+		
+		khl.setNameOfTeam(arrTeam);
+		
+		System.out.println(khl.toString());
+
+	}
+
+}
