@@ -1,0 +1,16 @@
+package lv.beatrise.repeat;
+
+public class MyClassMethods {
+
+	static void myObjMethod(){
+		System.out.println("Hello");
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package lv.beatrise.repeat;
+
+public interface InterfaceClass {
+
+	void sendEmail();
+	
+	int snedEmailCount();
+}

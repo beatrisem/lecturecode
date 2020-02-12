@@ -1,0 +1,40 @@
+package lv.beatrise.repeat;
+
+import lv.beatrise.repeat.*;
+
+
+public class TestOOP {
+
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		String strObj = "hi";
+		String strObj2 = "hi";
+		newObj.x = 70;
+
+		System.out.println(newObj.equals(newObj2));
+		System.out.println(strObj.equals(strObj2));
+		
+		System.out.println(newObj.x);
+		
+		//MyClassMethods myObjMethod = new MyClassMethods();
+		//myObjMethod.myMethod();
+//		myObjMethod.myStringMethod();
+//		System.out.println(myObjMethod.myStringMethod());
+		
+		
+		//MyClassMethods myObjMethod = new MyClassMethods();
+//		double numberDouble = myObjMethod.returnDouble();
+//		numberDouble = myObjMethod.returnDouble();
+//		System.out.println(numberDouble);
+		
+		
+		MyClassConstructor myConstructorObj = new MyClassConstructor(1999L, "BMW");
+		MyClassConstructor myConstructorObj2 = new MyClassConstructor(1989L, "Jaguar");
+		MyClassConstructor myConstructorObj3 = new MyClassConstructor(1969L, "Mini");
+		
+		System.out.println(MyConstructorObj[].getModelName().equals( myConstructorObj3.getModelName()));
+		
+	}
+
+}

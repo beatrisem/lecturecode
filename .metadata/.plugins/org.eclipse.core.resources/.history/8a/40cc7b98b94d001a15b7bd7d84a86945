@@ -1,0 +1,13 @@
+package lv.beatrise.repeat;
+
+public class TestOOP {
+
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		newObj.getClass();
+		newObj.x = 0;
+		
+
+	}
+
+}
