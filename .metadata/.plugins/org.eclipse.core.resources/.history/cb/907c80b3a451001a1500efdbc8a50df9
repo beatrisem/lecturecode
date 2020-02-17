@@ -1,0 +1,49 @@
+
+public class Test_Game {
+
+	/**
+	 * @param args
+	 */
+	import java.util.Arrays;
+	import java.util.Scanner;
+
+	public class JavaMaster {
+
+		public static void main(String[] args) {
+			Questions[] allQuestions = GetQuestions();
+
+			Scanner sc = new Scanner(System.in);
+
+			for (Questions questions : allQuestions) {
+				System.out.println(questions.question);
+				System.out.println(Arrays.toString(questions.options));
+				int atbilde = sc.nextInt();
+				if (atbilde == questions.answer) {
+					System.out.println("nais");
+
+				}else {
+					System.out.println("Nope");
+				}
+
+			}
+
+		}
+
+		private static Questions[] GetQuestions() {
+			Questions[] returnArray = new Questions[2];
+
+			String[] options1 = { "1. Java is a programming language, created in 1995",
+					"\n2. Java is a popular programming language, created in 1992",
+					"\n3. Java is one of the less famous and rarely used programming languages",
+					"\n4. Java is disgusting food" };
+			String[] options2 = { "1.Java Development Kit", "\n2. Java Drive Kit", "\n3. Java Development Keyboard",
+					"\n4. Journey Development Kit" };
+			returnArray[0] = new Questions("What is Java?", options1, 1);
+			returnArray[1] = new Questions("What is JDK?", options2, 1);
+
+			return returnArray;
+		}
+
+	}
+
+}
